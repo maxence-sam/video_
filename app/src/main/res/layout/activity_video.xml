@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.maxence.videostart.MainActivity">
+
+   <com.maxence.videostart.MyVideoView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:id="@+id/vv_video"
+       android:layout_alignParentLeft="true"
+       android:layout_alignParentRight="true"
+       android:layout_alignParentTop="true"
+       android:layout_alignParentBottom="true"
+       />
+   <TextView
+       android:layout_width="80dp"
+       android:layout_height="50dp"
+       android:background="#000000"
+       android:textColor="@android:color/white"
+       android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginRight="5dp"
+       android:layout_marginTop="5dp"
+       android:layout_gravity="right"
+       android:id="@+id/tv_view_time"
+       />
+
+    <Button
+        android:layout_width="272dp"
+        android:layout_height="50dp"
+        android:text="跳过"
+        android:id="@+id/btn_next"
+        android:gravity="center"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="30dp"
+        />
+
+</FrameLayout>
